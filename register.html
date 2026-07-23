@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Giriş Yap - Yankı AI Ultra</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #0f172a; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #1e293b; padding: 30px; border-radius: 12px; width: 320px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border: 1px solid #334155; }
+        h2 { text-align: center; margin-bottom: 20px; color: #818cf8; }
+        input { width: 100%; padding: 10px; margin: 8px 0; border-radius: 6px; border: none; box-sizing: border-box; background: #0f172a; color: white; border: 1px solid #334155; }
+        button { width: 100%; padding: 10px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: 10px; }
+        button:hover { background: #1d4ed8; }
+        .link { text-align: center; margin-top: 15px; font-size: 14px; }
+        .link a { color: #55efc4; text-decoration: none; }
+        .badge { display: block; text-align: center; margin-bottom: 15px; font-size: 12px; color: #94a3b8; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">⚡ Yankı AI Ultra</div>
+        <h2>🔐 Giriş Yap</h2>
+        <form method="POST">
+            <input type="email" name="email" placeholder="E-posta Adresi" required>
+            <input type="password" name="password" placeholder="Şifre" required>
+            <button type="submit">Giriş Yap</button>
+        </form>
+        <div class="link">Hesabın yok mu? <a href="/register">Kayıt Ol</a></div>
+    </div>
+</body>
+</html>
